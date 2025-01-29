@@ -1,5 +1,3 @@
 export default function Main (){
-    return(
-        <main>Main</main>
-    )
+      return (<main>Main</main>)
 }

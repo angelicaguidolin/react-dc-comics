@@ -1,0 +1,16 @@
+/*-----------------
+    RESET
+------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  /*-----------------
+    GENERAL
+------------------*/
+body{
+    font-family: "Open Sans" serif;
+    color: black;
+    min-height: 100vh;
+}
