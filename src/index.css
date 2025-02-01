@@ -10,7 +10,48 @@
     GENERAL
 ------------------*/
 body{
-    font-family: "Open Sans" serif;
+    font-family: "Open Sans", serif;
     color: black;
     min-height: 100vh;
+
+    
+
+}
+.gap-30 {
+  gap: 30%
+}
+.active{
+    color: #0282F9;
+  
+}
+
+  /*-----------------
+    HEADER
+------------------*/
+header{
+    background-color: red;
+    
+}
+.big-container{
+        max-width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+
+}
+ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+   
+}
+.list{
+    display: flex;
+    gap: 40px;
+    align-self: center;
 }
