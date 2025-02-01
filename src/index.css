@@ -58,7 +58,11 @@ ul a {
 ------------------*/
 .jumbotron{
     background-image: url(../public/img/jumbotron.jpg);
-    min-height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #ea0a0a;
+    padding: 150px 0;
+    
 }
 .comics-section{
     background-color: #1C1C1C;
