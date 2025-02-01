@@ -28,10 +28,7 @@ body{
   /*-----------------
     HEADER
 ------------------*/
-header{
-    background-color: red;
-    
-}
+
 .big-container{
         max-width: 1500px;
         margin-left: auto;
@@ -44,6 +41,7 @@ header{
 
 
 }
+
 ul a {
     text-decoration: none;
     color: black;
@@ -54,4 +52,36 @@ ul a {
     display: flex;
     gap: 40px;
     align-self: center;
+}
+  /*-----------------
+    MAIN
+------------------*/
+.jumbotron{
+    background-image: url(../public/img/jumbotron.jpg);
+    min-height: 100vh;
+}
+.comics-section{
+    background-color: #1C1C1C;
+    padding: 50px 0;
+
+}
+.second-sect{
+ background-color: #0282F9;  
+ padding: 50px 0; 
+}
+ li{
+    list-style: none;
+    color: white;
+    padding-left: 10px;
+}
+.list-2{
+    display: flex;
+    gap: 40px;
+    align-self: center;
+    padding-left: 10%;
+}
+.img-size{
+    height: 60px;
+   
+    
 }
